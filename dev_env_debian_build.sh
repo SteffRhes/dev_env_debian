@@ -1,4 +1,4 @@
 #!/bin/bash
 
-podman build -t dev_env_debian .
+podman build --no-cache -t dev_env_debian .
 
